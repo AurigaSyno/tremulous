@@ -1,0 +1,35 @@
+[level]
+level   = 0
+name    = ^7unregistered
+flags   = register listplayers listmaps admintest help specme time rotation maplog info item class gravity speed CANDECON CANVOTE CANBUILD SPECIALNAME TEAMCHANGEFREE
+
+[level]
+level   = 1
+name    = ^5registered
+flags   = listplayers listmaps admintest help specme time rotation maplog info item class gravity speed CANDECON CANVOTE CANBUILD SPECIALNAME TEAMCHANGEFREE
+
+[level]
+level   = 2
+name    = ^2trusted
+flags   = listplayers listmaps admintest help specme time rotation maplog info allready item class gravity speed CANDECON CANVOTE CANBUILD SPECIALNAME TEAMCHANGEFREE IMMUNITY
+
+[level]
+level   = 3
+name    = ^3trial admin
+flags   = listplayers listmaps admintest help specme time rotation maplog info allready spec999 kick mute warn pause buildlog revert cancelvote item class gravity speed CANDECON CANVOTE CANBUILD SPECIALNAME TEAMCHANGEFREE IMMUNITY
+
+[level]
+level   = 4
+name    = ^4admin
+flags   = listplayers listmaps admintest help specme time rotation maplog info allready spec999 kick mute warn pause buildlog revert cancelvote demo denybuild putteam namelog ban showbans adjustban l0 l1 listadmins item class gravity speed CANDECON CANVOTE SEESFULLLISTPLAYERS CANBUILD SPECIALNAME IMMUNITY TEAMCHANGEFREE SPECALLCHAT ADMINCHAT
+
+[level]
+level   = 5
+name    = ^6senior admin
+flags   = listplayers listmaps admintest help specme time rotation maplog info allready spec999 kick mute warn pause buildlog revert cancelvote demo denybuild putteam namelog ban showbans adjustban l0 l1 listadmins denyweapon restart map bubble item class gravity speed bot CANDECON CANVOTE SEESFULLLISTPLAYERS CANBUILD SPECIALNAME IMMUNITY TEAMCHANGEFREE SPECALLCHAT ADMINCHAT
+
+[level]
+level   = 6
+name    = ^1head admin
+flags   = ALLFLAGS -IMMUTABLE -DBUILDER -BANIMMUNITY -FORCETEAMCHANGE -STEALTH -scrim
+

@@ -1,0 +1,4 @@
+^3==================================================
+^7Welcome to my Multiprotocall server
+Stuff appears here when someone types in ^3!info
+^3==================================================
